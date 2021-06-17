@@ -9,14 +9,13 @@
 	
 	<!-- Demo on Github Webhooks-->
 
-	<url>http://maven.apache.org</url>
-
-	<dependencies>
-		<dependency>
-		    <groupId>org.apache.poi</groupId>
-		    <artifactId>poi</artifactId>
-		    <version>3.7</version>
-		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.9.0.2155</version>
+    <type>pom</type>
+</dependency>y>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
